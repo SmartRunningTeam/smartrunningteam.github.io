@@ -1,0 +1,54 @@
+# Site settings
+
+url: "http://srt.volh.be"
+title: "Smart Running Team"
+description: "Een enthousiaste groep lopers uit Beveren. Fan van middellange en lange afstanden"
+# keywords: "panos, sakkos, panos sakkos, technology, computer science, Pwn Mail, WriteRight, UoA, di, CERN, MDCN, Microsoft"
+favicon: "/img/favicon.jpg"
+# black-favicon: "/img/black-lab-glass.ico"
+# google-tracking-id: "UA-35880426-3"
+# disqus-shortname: "panossakkos"
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'About'
+  Blog: 'blog'
+# Atleten: 'atleten'
+# Photos: 'photos'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+# reddit-share: True
+
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+##social:
+##  - title: "rss"
+##    url: "/feed.xml"
+##  - title: "github"
+##    url: "https://github.com/PanosSakkos"
+##  - title: "linkedin"
+##    url: "http://no.linkedin.com/in/PanosSakkos"
+##  - title: "youtube"
+##    url: "http://youtube.com/c/PanosSakkos"
+##  - title: "soundcloud"
+##    url: "https://soundcloud.com/psakkos/"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
