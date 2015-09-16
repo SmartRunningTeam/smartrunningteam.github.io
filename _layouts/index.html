@@ -14,18 +14,17 @@
     {% if page.section-type == "about" %}
 
       {% include about.html %}
+      {% include ph-1.html %}
 
     {% elsif page.section-type == "latest-post" %}
 
       {% include latest-post.html %}
-
-    {% elsif page.section-type == "career" %}
-
-      {% include career.html %}
+      {% include ph-2.html %}
 
     {% elsif page.section-type == "contact" %}
 
       {% include contact.html %}
+      {% include ph-3.html %}
 
     {% endif %}
 

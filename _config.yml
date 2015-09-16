@@ -9,6 +9,8 @@ favicon: "/img/favicon.jpg"
 # google-tracking-id: "UA-35880426-3"
 # disqus-shortname: "panossakkos"
 
+excerpt_separator: <!--more-->
+
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
 # In the default page it will point to the preview of the last post
@@ -20,8 +22,10 @@ pages_list:
 # Photos: 'photos'
   Contact: 'contact'
 
-background-img: "/img/intro-bg.jpg"
-
+bg-0: "/img/bg-0.jpg"
+bg-1: "/img/bg-1.jpg"
+bg-2: "/img/bg-2.jpg"
+bg-3: "/img/bg-3.jpg"
 
 # Blog variables
 paginate: 15
@@ -48,7 +52,7 @@ twitter-share: True
 ##  - title: "soundcloud"
 ##    url: "https://soundcloud.com/psakkos/"
 
-404-img: "/img/labtocat.png"
+404-img: "/img/404.png"
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
