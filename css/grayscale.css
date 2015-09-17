@@ -315,6 +315,22 @@ a:focus {
 }
 
 /* ===========================
+--- banner
+============================ */
+
+.banner {
+    width: 100%;
+    position: relative;
+    background: no-repeat top center fixed;
+}
+
+@media(min-width:767px) {
+ .banner {
+    height: 75%;
+    padding: 0;
+}
+
+/* ===========================
 --- 
 ============================ */
 

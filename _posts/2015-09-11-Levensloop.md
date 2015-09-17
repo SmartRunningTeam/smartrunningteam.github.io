@@ -1,6 +1,7 @@
 ---
 layout: post
 section-type: blog
+bannerimg: true
 ---
 
 Op 17-18 oktober vindt in Beveren de Levenslooop plaats. Wij zullen hier aan deelnemen met ons team!

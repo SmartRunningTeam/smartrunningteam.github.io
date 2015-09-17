@@ -1,0 +1,13 @@
+<!-- Banner -->
+
+{% if page.bannerimg %}
+
+<section id="banner" class="banner" style="background-image: url( {{site.baseurl}}/img/posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title }}.jpg );">
+
+{% else %}
+
+<section id="banner" class="banner" style="background-image: url( {{ site.banner }} );">
+
+{% endif %}
+
+</section>

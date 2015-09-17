@@ -9,7 +9,7 @@ favicon: "/img/favicon.jpg"
 # google-tracking-id: ""
 # disqus-shortname: ""
 
-permalink: pretty
+#permalink: pretty ## pretty or 404 page, tough choise ##
 excerpt_separator: <!--more-->
 
 # Navigation bar links
@@ -27,6 +27,8 @@ bg-0: "/img/bg-0.jpg"
 bg-1: "/img/bg-1.jpg"
 bg-2: "/img/bg-2.jpg"
 bg-3: "/img/bg-3.jpg"
+
+banner: "/img/banner-std.jpg"
 
 # Blog variables
 paginate: 15
