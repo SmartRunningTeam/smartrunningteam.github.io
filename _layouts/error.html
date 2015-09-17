@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
   {% include navigation.html %}
 
@@ -13,11 +13,11 @@
 
         <h1><strong>{{ page.title }}</strong></h1>
 
-	{{ page.content | markdownify }}
+        {{ page.content | markdownify }}
 
-	<img class="img-responsive center-block" src="{{ site.404-img }}" alt="">
+        <img class="img-responsive center-block" src="{{ site.404-img }}" alt="">
 
-	{% include social-buttons.html %}
+        {% include social-buttons.html %}
 
       </div>
     </div>
@@ -26,6 +26,6 @@
   {% include footer.html %}
 
   {% include js.html %}
-    
-  </body>
+  
+</body>
 </html>

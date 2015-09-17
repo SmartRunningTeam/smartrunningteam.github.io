@@ -3,12 +3,13 @@
 url: "http://srt.volh.be"
 title: "Smart Running Team"
 description: "Een enthousiaste groep lopers uit Beveren. Fan van middellange en lange afstanden"
-# keywords: "panos, sakkos, panos sakkos, technology, computer science, Pwn Mail, WriteRight, UoA, di, CERN, MDCN, Microsoft"
+# keywords: ""
 favicon: "/img/favicon.jpg"
 # black-favicon: "/img/black-lab-glass.ico"
-# google-tracking-id: "UA-35880426-3"
-# disqus-shortname: "panossakkos"
+# google-tracking-id: ""
+# disqus-shortname: ""
 
+permalink: pretty
 excerpt_separator: <!--more-->
 
 # Navigation bar links
@@ -16,7 +17,7 @@ excerpt_separator: <!--more-->
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'About'
+  Over ons: 'about'
   Blog: 'blog'
 # Atleten: 'atleten'
 # Photos: 'photos'

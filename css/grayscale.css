@@ -54,9 +54,6 @@ p {
     }
 }
 
-nop {
-
-}
 
 a {
     color: #fed136;
@@ -123,7 +120,7 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: nonte;
-    background-color: rgba(255,255,255,.3);
+    background-color: #d9d9d9;
 }
 
 .navbar-custom .nav li a {
@@ -136,7 +133,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    background-color: #d9d9d9;
 }
 
 @media(min-width:767px) {

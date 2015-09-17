@@ -1,7 +1,6 @@
 ---
 layout: post
 section-type: blog
-title: "Clubrecord uurloop"
 author: Wout Vierbergen
 ---
 
