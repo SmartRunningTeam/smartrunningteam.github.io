@@ -30,6 +30,9 @@ bg-3: "/img/bg-3.jpg"
 
 banner: "/img/banner-std.jpg"
 
+flickr:
+  api_key: ?SHOULD WE STORE THIS PUBLIC?
+
 # Blog variables
 paginate: 15
 
