@@ -88,7 +88,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #fff;
+    
 }
 
 .navbar-custom .navbar-brand {
@@ -116,6 +116,10 @@ a:focus {
 
 .top-nav-collapse a {
     color: #000;
+}
+
+.top-nav-collapse {
+    background-color: #fff;
 }
 
 .navbar-custom .nav li.active {
@@ -475,9 +479,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-.photosec {
-    height: 75%;
-    padding: 0;
 }
