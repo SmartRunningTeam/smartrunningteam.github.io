@@ -30,8 +30,8 @@ bg-3: "/img/bg-3.jpg"
 
 banner: "/img/banner-std.jpg"
 
-flickr:
-  api_key: ?SHOULD WE STORE THIS PUBLIC?
+# flickr:
+#   api_key: ?SHOULD THIS BE PUBLIC?
 
 # Blog variables
 paginate: 15
@@ -42,15 +42,17 @@ post-preview-words: 128
 
 fb-share: True
 twitter-share: True
-# reddit-share: True
+reddit-share: false
 
 
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
-##social:
-##  - title: "rss"
-##    url: "/feed.xml"
-##  - title: "github"
-##    url: "https://github.com/SmartRunningTeam"
+social:
+  - title: "rss"
+    url: "/feed.xml"
+  - title: "github"
+    url: "https://github.com/SmartRunningTeam"
+  - title: "twitter"
+    url: "https://twitter.com/WeRunSmart"
 ##  - title: "linkedin"
 ##    url: "http://no.linkedin.com/in/PanosSakkos"
 ##  - title: "youtube"
