@@ -14,6 +14,16 @@
 
         {{ p.excerpt }}
 
+        {% capture content_words %}
+          {{ p.content | number_of_words }}
+        {% endcapture %}
+        {% capture excerpt_words %}
+          {{ p.excerpt | number_of_words }}
+        {% endcapture %}
+        {% if excerpt_words != content_words %}
+          <a href="{{ p.url }}"> <strong>lees meer...</strong> </a>
+        {% endif %}
+
         {% endfor %}
 
         <a href="/blog/index.html"><h4><strong>Meer posts</strong></h4></a>
