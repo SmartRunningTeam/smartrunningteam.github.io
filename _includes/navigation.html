@@ -8,7 +8,7 @@
             {% if page.section-type == "index" %}
               <a class="navbar-brand page-scroll" data-target="#page-top">
             {% else %}
-              <a class="navbar-brand page-scroll" data-target="/index.html#page-top">
+              <a class="navbar-brand page-scroll" href="/index.html#page-top">
             {% endif %}
             <div> {{ site.title }}</div>
           </a>
@@ -32,18 +32,18 @@
                 {% else %}
                   <!-- Blog, Post, Tag pages-->
                   {% for p in site.pages_list %}
-                    {% if page.section-type == "blog" and p[0] == "Blog" %}
+                    {% if page.url == "/blog/index.html" and p[0] == "Blog" %}
                       <!-- Blog button in blog.html doesn't refresh the page -->
                       <li>
-                        <a class="page-scroll" data-target="#blog"> {{ p[0] }} </a>
+                        <a class="page-scroll" href="#blog"> {{ p[0] }} </a>
                       </li>
                     {% elsif p[0] == "Blog" %}
                       <li>
-                        <a class="page-scroll" data-target="/blog/index.html"> {{ p[0] }} </a>
+                        <a class="page-scroll" href="/blog/index.html"> {{ p[0] }} </a>
                       </li>
                     {% else %}
                       <li>
-                        <a class="page-scroll" data-target="/index.html#{{ p[1] }}"> {{ p[0] }} </a>
+                        <a class="page-scroll" href="/index.html#{{ p[1] }}"> {{ p[0] }} </a>
                       </li>
                     {% endif %}
                   {% endfor %}
