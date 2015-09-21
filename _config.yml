@@ -29,6 +29,7 @@ bg-2: "/img/bg-2.jpg"
 bg-3: "/img/bg-3.jpg"
 
 banner: "/img/banner-std.jpg"
+banner-blog: "/img/banner-blog.jpg"
 
 # flickr:
 #   api_key: ?SHOULD THIS BE PUBLIC?

@@ -329,9 +329,10 @@ a:focus {
 }
 
 @media(min-width:767px) {
- .banner {
+  .banner {
     height: 75%;
     padding: 0;
+  }
 }
 
 /* ===========================
