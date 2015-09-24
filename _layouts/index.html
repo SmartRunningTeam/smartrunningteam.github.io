@@ -9,7 +9,8 @@
 
   {% include header.html %}
 
-  {% for page in site.pages %}
+  {% assign pages = site.pages | sort: 'seq' %}
+  {% for page in pages %}
 
     {% if page.section-type == "about" %}
 
@@ -20,6 +21,11 @@
 
       {% include latest-post.html %}
       {% include ph-2.html %}
+
+    {% elsif page.section-type == "atleten" %}
+
+      {% include atleten.html %}
+      {% include ph-3.html %}
 
     {% elsif page.section-type == "contact" %}
 
