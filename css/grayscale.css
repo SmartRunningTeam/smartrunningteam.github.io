@@ -429,7 +429,23 @@ a:focus {
 .team-social .social-vimeo a:hover{background: #71c6f3;}
 
 
-* ===========================
+/* ===========================
+--- footer
+============================ */
+
+.footer {
+	text-align: center;
+	padding: 50px 0 ;
+  background-color: #67b0d1;
+}
+
+.footer p {
+	color: #f8f8f8;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* ===========================
 ---
 ============================ */
 
@@ -542,14 +558,6 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     color: #222;
     background-color: #fec503;
-}
-
-footer {
-    padding: 50px 0;
-}
-
-footer p {
-    margin: 0;
 }
 
 ::-moz-selection {
