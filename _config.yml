@@ -19,7 +19,7 @@ excerpt_separator: <!--more-->
 pages_list:
   Over ons: 'about'
   Blog: 'blog'
-# Atleten: 'atleten'
+  Atleten: 'atleten'
 # Photos: 'photos'
   Contact: 'contact'
 
@@ -30,6 +30,7 @@ bg-3: "/img/bg-3.jpg"
 
 banner: "/img/banner-std.jpg"
 banner-blog: "/img/banner-blog.jpg"
+banner-athletes : "/img/banner-athletes.jpg"
 
 # flickr:
 #   api_key: ?SHOULD THIS BE PUBLIC?

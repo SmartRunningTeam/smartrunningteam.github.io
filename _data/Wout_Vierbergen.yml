@@ -1,0 +1,22 @@
+naam: Wout Vierbergen
+quote: Iets over jezelf
+strava_id: het laatste cijfer van de link naar je Strava profiel
+strava_widget: cijfer na "https://www.strava.com/athletes/7796980/latest-rides/" in het widget
+wedstrijden:
+  - datum: 07/01/1996
+    plaats: Beveren
+    naam: wedstrijdnaam
+    discipline: 1500m
+    prestatie: 4:08.44
+    CR: false
+
+  - datum: 19/09/2015
+    plaats: Aalst
+    naam: Engelse meeting
+    discipline: Olympische aflossing
+    prestatie: 4:14.60
+    CR: True
+
+social:
+  - mail: me@myprovider.be
+    twitter: WoutVierbergen
