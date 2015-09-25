@@ -15,13 +15,49 @@
 
       {{ page.content | markdownify }}
 
-      {% for post in paginator.posts %}
-        <h4 align="left"><strong>{{ post.date | date_to_string }}</strong> <small>. {{ post.category }} .</small> <a href="{{ post.url }}"> <strong>{{ post.title }} </strong> </a>
-          <!-- <small><a href="{{ post.url }}#disqus_thread">Comments</a></small> --> </h4>
+      {% for post in site.posts  %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-          <!-- {{ post.excerpt }} -->
+        {% if forloop.first %}
+        <div class="blog-year" >
+          <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+        </div>
+        {% endif %}
 
+        {% capture cleandate %}
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}jan
+          {% when '2' %}feb
+          {% when '3' %}mrt
+          {% when '4' %}apr
+          {% when '5' %}mei
+          {% when '6' %}jun
+          {% when '7' %}jul
+          {% when '8' %}aug
+          {% when '9' %}sep
+          {% when '10' %}okt
+          {% when '11' %}nov
+          {% when '12' %}dec
+        {% endcase %}
+        {% endcapture %}
+
+        <div class="blog-ot">
+          <h4 <strong>{{ cleandate }}</strong><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></h4>
+        </div>
+
+        {% if forloop.last %}
+        {% else %}
+          {% if this_year != next_year %}
+          <div class="blog-year" >
+            <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+          </div>
+          {% endif %}
+        {% endif %}
       {% endfor %}
+
 
       <!-- Pagination links -->
       <div class="pagination">
