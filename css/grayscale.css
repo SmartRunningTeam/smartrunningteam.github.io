@@ -56,8 +56,7 @@ p {
 
 
 a {
-    color: #fed136;
-    /* color: #219ab3; */
+    color: #67b0d1;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -67,7 +66,6 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #fec503;
-    /* color: #11505d; */
 }
 
 .light {
@@ -534,6 +532,10 @@ a:focus {
     background-color: #219ab3;
 }
 
+/* ===========================
+--- Social
+============================ */
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -568,8 +570,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    /* color: #fff; */
-    background-color: #222;
+    color: #000;
+    background-color: #fff;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -579,9 +581,13 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    color: #222;
-    background-color: #fec503;
+    color: #fff;
+    background-color: #67b0d1;
 }
+
+/* ===========================
+--- 
+============================ */
 
 ::-moz-selection {
     text-shadow: none;
