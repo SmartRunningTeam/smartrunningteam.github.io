@@ -385,6 +385,20 @@ a:focus {
   padding-left: 100px;
 }
 
+.blog-latest h4 {
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+
+.blog-latest p {
+  margin: 0px;
+}
+
+.blog-right a {
+  text-align: right;
+  float: right;
+}
+
 /* ===========================
 --- Atleten
 ============================ */
