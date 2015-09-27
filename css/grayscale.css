@@ -399,6 +399,10 @@ a:focus {
   float: right;
 }
 
+.blog-more {
+  margin-top: 55px;
+}
+
 /* ===========================
 --- Atleten
 ============================ */
@@ -571,7 +575,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #219ab3;
     outline: 0;
-    color: #000;
+    color: #fff;
     background-color: #219ab3;
 }
 
