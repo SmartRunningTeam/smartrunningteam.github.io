@@ -282,22 +282,34 @@ a:focus {
 --- photosec
 ============================ */
 
-.ph-1 {
+.ph {
   width:100%;
   position:relative;
+}
+
+
+.ph-1 {
   background: url( {{ site.bg-1 }} ) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .ph-2 {
-  width:100%;
-  position:relative;
   background: url( {{ site.bg-2 }} ) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .ph-3 {
-  width:100%;
-  position:relative;
   background: url( {{ site.bg-3 }} ) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 @media(min-width:767px) {
@@ -324,6 +336,10 @@ a:focus {
     width: 100%;
     position: relative;
     background: no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 @media(min-width:767px) {
