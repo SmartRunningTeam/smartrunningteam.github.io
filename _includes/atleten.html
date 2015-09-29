@@ -1,7 +1,8 @@
 <!-- Atleten Section -->
-<section id="{{ page.title }}" class="container content-section text-center">
+<section id="{{ page.title }}" class="container content-section">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+
+      {{ page.content | markdownify }}
 
       {% for atl_hash in site.data %}
       {% assign atl = atl_hash[1] %}
@@ -9,15 +10,20 @@
       <div class="col-xs-6 col-sm-3 col-md-3">
           <div class="team boxed-grey">
             <div class="inner">
-              <h5> {{ atl.naam }} </h5>
+              <a href="atleten/{{ atl.naam | replace:' ','_' }}">
+                <h5> {{ atl.naam }} </h5>
+              </a>
               <p class="subtitle"> {{ atl.quote }} </p>
-              <div class="avatar"><img src="/img/atleten/{{ atl.naam | replace:' ','_'}}.jpg" alt="" class="img-responsive img-circle" /></div>
+              <div class="avatar">
+                <a href="atleten/{{ atl.naam | replace:' ','_' }}">
+                  <img src="/img/atleten/{{ atl.naam | replace:' ','_'}}.jpg" alt="" class="img-responsive img-circle" />
+                </a>
+              </div>
             </div>
           </div>
       </div>
 
       {% endfor %}
 
-    </div>
   </div>
 </section>

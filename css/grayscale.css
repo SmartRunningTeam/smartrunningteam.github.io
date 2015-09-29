@@ -422,11 +422,16 @@ a:focus {
 }
 
 .team h5 {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 
 .team p.subtitle {
 	margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .avatar {
