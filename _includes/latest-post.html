@@ -6,7 +6,7 @@
 
         {{ page.content | markdownify }}
 
-        {% for p in site.posts limit:2 %}
+        {% for p in site.posts limit:3 %}
         <h4> <strong> <a href="{{ p.url }}">{{ p.title }} </a> </strong>
           <strong> {{ p.date | date_to_string }} </strong>
           <!-- <small> <a href="{{ post.url }}#disqus_thread">Comments</a></small> -->
