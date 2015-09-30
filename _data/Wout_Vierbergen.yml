@@ -1,21 +1,29 @@
 naam: Wout Vierbergen
 quote: Clubrecord uurloop
-strava_id: het laatste cijfer van de link naar je Strava profiel
-strava_widget: cijfer na "https://www.strava.com/athletes/7796980/latest-rides/" in het widget
+strava_id: 7796980
+strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
   - datum: 07/01/1996
     plaats: Beveren
     naam: wedstrijdnaam
     discipline: 1500m
-    prestatie: 4:08.44
+    prestatie: "4:08.44"
     CR: false
+    url: www.volh.be
 
   - datum: 19/09/2015
     plaats: Aalst
     naam: Engelse meeting
     discipline: Olympische aflossing
-    prestatie: 4:14.60
+    prestatie: "4:14.60"
     CR: True
+
+  - datum: 17/10/2015
+    plaats: Beveren
+    naam: Levensloop
+    discipline: Levensloop
+    prestatie:
+    CR:
 
 social:
   - mail: me@myprovider.be

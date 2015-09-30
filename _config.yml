@@ -30,7 +30,8 @@ bg-3: "/img/bg-3.jpg"
 
 banner: "/img/banner-std.jpg"
 banner-blog: "/img/banner-blog.jpg"
-banner-athletes : "/img/banner-athletes.jpg"
+banner-athletes: "/img/banner-athletes.jpg"
+banner-atleet: "/img/banner-atleet.jpg"
 
 # flickr:
 #   api_key: ?SHOULD THIS BE PUBLIC?

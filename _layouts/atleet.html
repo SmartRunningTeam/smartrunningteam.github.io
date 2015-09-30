@@ -9,13 +9,80 @@
 
   <section id="banner" class="banner" style="background-image: url( {{ site.banner-atleet }} );"> </section>
 
-  <section id="{{ page.title }}" class="container content-section text-center">
+  <!-- Atleet -->
+
+  {% assign atl = site.data.[page.naam] %}
+
+  <section id="{{ page.naam }}" class="container content-section text-center">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
+      <h1><strong>{{ atl.naam }}</strong></h1>
+      <h4><strong>{{ atl.quote }}</strong></h4>
+    </div>
+  </div>
 
 
 
+<!-- About -->
+<section id="about" class="home-section text-center bg-gray">
 
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-5">
+        <hr class="marginbot-50">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <div>
+          <h4>Komende wedstrijden</h4>
+          <table class="table">
+            {% for wedstrijd in atl.wedstrijden %}
+
+            {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
+            {% capture wedtime %}{{ wedstrijd.datum | date: "%Y-%m-%d" }}{% endcapture %}
+            {% if wedtime > nowunix %}
+            <tr>
+              <td>{{ wedstrijd.datum }}</td>
+              <td>{{ wedstrijd.plaats }}</td>
+              <td>{{ wedstrijd.discipline }}</td>
+            </tr>
+            {% endif %}
+
+            {% endfor %}
+          </table>
+        </div>
+
+        <div>
+          <h5>Afgelopen wedstrijden</h5>
+          <table class="table">
+            {% for wedstrijd in atl.wedstrijden reversed %}
+
+            {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
+            {% capture wedtime %}{{ wedstrijd.datum | date: "%Y-%m-%d" }}{% endcapture %}
+            {% if wedtime < nowunix %}
+            <tr>
+              <td>{{ wedstrijd.datum }}</td>
+              <td>{{ wedstrijd.plaats }}</td>
+              <td>{{ wedstrijd.discipline }}</td>
+              <td>{{ wedstrijd.prestatie }}</td>
+            </tr>
+            {% endif %}
+
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 center-text">
+        <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src="https://www.strava.com/athletes/{{ atl.strava_id }}/latest-rides/{{ atl.strava_widget }}"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- /atleet -->
+
+  <!-- LEES OVER HEM -->
 
 
       </div>
