@@ -4,7 +4,7 @@ url: "http://smartrunningteam.github.io"
 title: "Smart Running Team"
 description: "Een enthousiaste groep lopers uit Beveren. Fan van middellange en lange afstanden"
 # keywords: ""
-favicon: "/img/favicon.jpg"
+favicon: "/img/favicon.png"
 # black-favicon: "/img/black-lab-glass.ico"
 # google-tracking-id: ""
 # disqus-shortname: ""
@@ -31,7 +31,6 @@ bg-3: "/img/bg-3.jpg"
 banner: "/img/banner-std.jpg"
 banner-blog: "/img/banner-blog.jpg"
 banner-athletes: "/img/banner-athletes.jpg"
-banner-atleet: "/img/banner-atleet.jpg"
 
 # flickr:
 #   api_key: ?SHOULD THIS BE PUBLIC?

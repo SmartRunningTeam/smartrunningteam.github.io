@@ -3,13 +3,10 @@ quote: Clubrecord uurloop
 strava_id: 7796980
 strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
-  - datum: 07/01/1996
+  - datum: 17/10/2015
     plaats: Beveren
-    naam: wedstrijdnaam
-    discipline: 1500m
-    prestatie: "4:08.44"
-    CR: false
-    url: www.volh.be
+    naam: Levensloop
+    discipline: Levensloop
 
   - datum: 19/09/2015
     plaats: Aalst
@@ -18,13 +15,45 @@ wedstrijden:
     prestatie: "4:14.60"
     CR: True
 
-  - datum: 17/10/2015
-    plaats: Beveren
-    naam: Levensloop
-    discipline: Levensloop
-    prestatie:
-    CR:
+  - datum: 12/09/2015
+    plaats: Machelen
+    naam: MAC Septembermeeting
+    discipline: uurloop
+    prestatie: 15689m
+    CR: True
 
-social:
-  - mail: me@myprovider.be
-    twitter: WoutVierbergen
+  - datum: 05/09/2015
+    plaats: Beveren
+    naam: Nacht van Volharding
+    discipline: 1500m
+    prestatie: "4:18.58"
+
+  - datum: 09/08/2015
+    plaats: Aalter
+    naam: BOTHA meeting
+    discipline: mijl
+    prestatie: "4:37.48"
+
+  - datum: 29/07/2015
+    plaats: Beveren
+    naam: 2e vakantiemeeting
+    discipline: 1000m
+    prestatie: "2:39.35"
+
+  - datum: 26/04/2015
+    plaats: Beveren
+    naam: PK AC
+    discipline: 1500m
+    prestatie: "4:10.42"
+
+  - datum: 15/03/2015
+    plaats: Wachtebeke
+    naam:
+    discipline: Cross 6500m
+    prestatie: 26
+
+  - datum: 14/02/2015
+    plaats: Uitbergen
+    naam:
+    discipline: Cross 6400m
+    prestatie:
