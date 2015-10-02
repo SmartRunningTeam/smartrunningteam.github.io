@@ -2,7 +2,10 @@
 layout: post
 section-type: blog
 author: Sven Verhaege
-atleten: Sven Verhaege, Jozef Claessens, Karolien Smet
+atleten:
+  - Sven Verhaege
+  - Jozef Claessens
+  - Karolien Smet
 permalink:
 tags:
 ---

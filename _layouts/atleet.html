@@ -79,6 +79,46 @@
         <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src="https://www.strava.com/athletes/{{ atl.strava_id }}/latest-rides/{{ atl.strava_widget }}"></iframe>
       </div>
       {% endif %}
+
+      <div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h4>Lees meer over {{ atl.naam }}</h4>
+          <table class="table">
+            {% for post in site.posts %}
+            {% for atleet in post.atleten %}
+            {% if atleet == atl.naam %}
+
+            {% capture cleandate %}
+            {% assign m = post.date | date: "%-m" %}
+            {{ post.date | date: "%-d" }}
+            {% case m %}
+              {% when '1' %}jan
+              {% when '2' %}feb
+              {% when '3' %}mrt
+              {% when '4' %}apr
+              {% when '5' %}mei
+              {% when '6' %}jun
+              {% when '7' %}jul
+              {% when '8' %}aug
+              {% when '9' %}sep
+              {% when '10' %}okt
+              {% when '11' %}nov
+              {% when '12' %}dec
+            {% endcase %}
+            {% endcapture %}
+
+            <tr>
+              <td>{{ cleandate }}</td>
+              <td><a href="{{ post.url }}"> {{ post.title }} </a></td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+    </div>
+
     </div>
   </section>
 

@@ -4,7 +4,12 @@ section-type: blog
 author: Wim Meul
 permalink: /aalst
 tags: srt, clubrecord, volh, mijl, aalst, cr
-atleten: Sven Verhaege, Wout Vierbergen, Wim Meul, Michael Leys, Karolien Smet
+atleten:
+  - Sven Verhaege
+  - Wout Vierbergen
+  - Wim Meul
+  - Michael Leys
+  - Karolien Smet
 ---
 Op het einde van het zomerseizoen trokken enkele atleten richting Aalst voor de Engelse meeting. Sven plande een aanval op het clubrecord 1 mijl bij de masters.
 

@@ -2,7 +2,10 @@
 layout: post
 section-type: blog
 author: Wout Vierbergen
-atleten: Wout Backaert, Wout Vierbergen, Baziel Wautier
+atleten:
+  - Wout Backaert
+  - Wout Vierbergen
+  - Baziel Wautier
 ---
 
 Op **zaterdag 12 september** trokken enkele atleten naar **Machelen**. **Wout Backaert** verbeterde er zijn besttijd op de **1000m**, **Wout Vierbergen** en **Baziel Wautier** zette er hun zinnen op de **uurloop**. Het clubrecord bij de junioren lag voor het grijpen.
