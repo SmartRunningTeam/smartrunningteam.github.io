@@ -15,7 +15,7 @@
 
         <h1><strong>{{ page.title }}</strong></h1>
         <h4><strong>{{ page.date | date_to_string }}</strong>
-        <a href="{{ site.url }}/atleten/{{ page.author | replace:' ','' }}.html"> <strong> {{ page.author }} </strong> </a>
+        <a href="{{ site.url }}/atleet/{{ page.author | replace:' ','' }}.html"> <strong> {{ page.author }} </strong> </a>
           {% if category %}
           <small> . {{ page.category }} . <!-- <a href="{{ page.url }}#disqus_thread">Comments</a> --> <p/>
             {% for tag in page.tags %}
