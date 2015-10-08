@@ -9,8 +9,17 @@
       </svg>
       Back to Top
 
-      <p><br /><br /></p>
+      <p><br /></p>
     </div>
+
+    <ul class="list-inline social-buttons">
+      {% for network in site.social %}
+        <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
+      {% endfor %}
+    </ul>
+
+    <p><br /></p>
+
     <p> All content copyright <strong>Smart Running Team</strong> © {{ site.time | date: "%Y" }} • All rights reserved. </p>
     <p> Made by our awesome team! </p>
     <p><br /></p>
