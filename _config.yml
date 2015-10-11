@@ -18,8 +18,9 @@ excerpt_separator: <!--more-->
 
 pages_list:
   Over ons: 'about'
+  Levensloop: 'levensloop'
   Blog: 'blog'
-  Atleten: 'atleten'
+# Atleten: 'atleten'
 # Photos: 'photos'
   Contact: 'contact'
 
