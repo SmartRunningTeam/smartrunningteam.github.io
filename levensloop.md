@@ -12,6 +12,7 @@ Op zaterdag/zondag 17/18 oktober vindt in Beveren de [levensloop](http://www.lev
 Heb je interesse om mee te lopen, kan je ons team vervoegen via onze [teampagina](http://www.levensloop.be/teams/smart-running-team) bij levenloop, klik daar op de knop 'vervoegen'!
 
 Overzicht loopschema
-Tijdslot|Permanentie tent|Loper(s)
----|---|---
+
+Tijdslot|Permanentie tent|Loper
+--------|----------------|-----
 15u-16u||
