@@ -2,11 +2,32 @@
 <section id="{{ page.title }}" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <div class="levensloop">
+          <div class="levensloop table">
 
           {{ page.content | markdownify }}
 
           </div>
+
+          <h4>Overzicht loopschema</h4>
+          <table class="table">
+
+            <tr>
+              <td><strong> Tijdsslot </strong></td>
+              <td><strong> Permanentie </strong></td>
+              <td><strong> Loper </strong></td>
+            </tr>
+
+            {% for shift in site.data.Levensloop.levensloop.shift %}
+
+            <tr>
+              <td>{{ shift.Tijdslot }}</td>
+              <td>{{ shift.Permanentie }}</td>
+              <td>{{ shift.Loper }}</td>
+            </tr>
+
+            {% endfor %}
+          </table>
         </div>
+
     </div>
 </section>
