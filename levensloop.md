@@ -4,7 +4,7 @@ section-type: levensloop
 title: levensloop
 seq: 3
 ---
-## ![logo levensloop](/img/levensloop.png) ![shirt srt](/img/shirt.png)
+## ![logo levensloop](/img/levensloop.png)
 
 
 Op zaterdag/zondag 17/18 oktober vindt in Beveren de [levensloop](http://www.levensloop.be/beveren) plaats. Ook wij nemen deel met een team.
@@ -12,4 +12,9 @@ Op zaterdag/zondag 17/18 oktober vindt in Beveren de [levensloop](http://www.lev
 Heb je interesse om mee te lopen, kan je ons team vervoegen via onze [teampagina](http://www.levensloop.be/teams/smart-running-team) bij levenloop, klik daar op de knop 'vervoegen'!
 
 De plaats van onze team-tent kan je bekijken op onderstaande afbeelding. We delen een tent met de joggers en het trail-team van Volharding.
-## ![plattegrond levensloop](/img/levensloop_plattegrond.jpg)
+
+![plattegrond levensloop](/img/levensloop_plattegrond.jpg)
+
+Ons loopshirt:
+
+![shirt srt](/img/shirt.png)
