@@ -1,6 +1,7 @@
 ---
 layout: post
-section-type: levensloop
+section-type: blog
+bannerimg: true
 ---
 
 17- 18 oktober vond in Beveren de eerste **Levensloop** plaats. Met meer dan **€200.000** voor de **Stichting Tegen Kanker** was dit zeker een succes! Ook wij hebben met ons team voor een mooie €287 gezorgd!
