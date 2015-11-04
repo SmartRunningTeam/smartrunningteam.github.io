@@ -183,7 +183,12 @@ a:focus {
     font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
+.intro .intro-body {
+    font-size: 18px;
+    text-align: center;
+}
+
+.intro-text p{
     font-size: 18px;
     text-align: center;
 }
@@ -198,7 +203,12 @@ a:focus {
         font-size: 100px;
     }
 
-    .intro .intro-body .intro-text {
+    .intro .intro-body {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .intro-text p{
         font-size: 25px;
         text-align: center;
     }
@@ -330,17 +340,17 @@ a:focus {
 
 @media(min-width:767px) {
  .ph-1 {
-    height: 75%;
+    height: 60%;
     padding: 0;
 }
 
 .ph-2 {
-    height: 75%;
+    height: 60%;
     padding: 0;
 }
 
 .ph-3 {
-    height: 75%;
+    height: 60%;
     padding: 0;
 }
 
