@@ -28,30 +28,29 @@ Ons loopshirt:
 
 OVERZICHT LOOPSCHEMA
 
-Tijdsslot	Permanentie	Loper
-
-13u45 - 15u		
-15u - 16u	Wout	Katrien Dullaert en Sophie De Bruyn
-16u - 17u		Katrien Dullaert, Sophie De Bruyn en Pascal Brack
-17u - 18u		Koen Meul, Evy Bocklandt en Pascal Brack
-18u - 19u		Koen Meul en Evy Bocklandt
-19u - 20u		Marieke Bentein en Cédric De Caluwaert
-20u - 21u		Baziel Wautier
-21u - 22u	Karel	Ingrid Mennes en Kobe Vierbergen
-22u - 23u	Karel	Hans Meul en Toon Vierbergen
-23u - 24u	Karel	Hans Meul en Baziel Wautier
-00u - 01u	Karel	Karel Verelst, Wout Vierbergen en Sven Verhaege
-01u - 02u		Karel Verelst, Wout Vierbergen, Tim Coenen en Sven Verhaege
-02u - 03u		Karel Verelst, Wout Vierbergen, Tim Coenen en Sven Verhaege
-03u - 04u		Karel Verelst, Wout Vierbergen, Tim Coenen, Sven Verhaege, Pieter D'Hooghe en Filip Anné
-04u - 05u		Karel Verelst, Wout Vierbergen, Tim Coenen, Sven Verhaege, Pieter D'Hooghe en Filip Anné
-05u - 06u		
-06u - 07u		
-07u - 08u	Michaël	Michaël Leys, Wout Backaert en Bloemke Van de Wijngaert
-08u - 09u	Michaël	Michaël Leys, Wout Backaert en Bloemke Van de Wijngaert
-09u - 10u	Michaël	Wout Backaert en Karolien Smet
-10u - 11u	Wim	Michaël Leys en Karolien Smet
-11u - 12u	Wim	Wim Meul en Michaël Leys
-12u - 13u	Wim	Wim Meul en Sven Verhaege
-13u - 14u	Wim	Céline Janssens, Karolien Smet en Sven Verhaege
-14u - 15u	Wim	Céline Janssens en Karolien Smet en iedereen die kan!
+|Tijdslot|Loper(s)|
+|:---|:---:|
+|15u-16u|Katrien Dullaert en Sophie De Bruyn|
+|16u-17u|Katrien Dullaert, Sophie De Bruyn en Pascal Brack|
+|17u-18u|Koen Meul, Evy Bocklandt en Pascal Brack|
+|18u-19u|Koen Meul en Evy Bocklandt|
+|19u-20u|Marieke Bentein en Cédric De Caluwaert|
+|20u-21u|Baziel Wautier|
+|21u-22u|Ingrid Mennes en Kobe Vierbergen|
+|22u-23u|Hans Meul en Toon Vierbergen|
+|23u-00u|Hans Meul en Baziel Wautier|
+|00u-01u|Karel Verelst, Wout Vierbergen en Sven Verhaege|
+|01u-02u|Karel Verelst, Wout Vierbergen, Tim Coenen en Sven Verhaege|
+|02u-03u|Karel Verelst, Wout Vierbergen, Tim Coenen en Sven Verhaege|
+|03u-04u|Karel Verelst, Wout Vierbergen, Tim Coenen, Sven Verhaege, Pieter D'Hooghe en Filip Anné|
+|04u-05u|Karel Verelst, Wout Vierbergen, Tim Coenen, Sven Verhaege, Pieter D'Hooghe en Filip Anné|
+|05u-06u||
+|06u-07u||
+|07u-08u|Michaël	Michaël Leys, Wout Backaert en Bloemke Van de Wijngaert|
+|08u-09u|Michaël	Michaël Leys, Wout Backaert en Bloemke Van de Wijngaert|
+|09u-10u|Michaël	Wout Backaert en Karolien Smet|
+|10u-11u|Wim	Michaël Leys en Karolien Smet|
+|11u-12u|Wim	Wim Meul en Michaël Leys|
+|12u-13u|Wim	Wim Meul en Sven Verhaege|
+|13u-14u|Wim	Céline Janssens, Karolien Smet en Sven Verhaege|
+|14u-15u|Wim	Céline Janssens en Karolien Smet en iedereen die kan!|

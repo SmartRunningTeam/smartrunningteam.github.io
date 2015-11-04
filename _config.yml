@@ -11,6 +11,9 @@ favicon: "/img/favicon.png"
 
 #permalink: pretty ## pretty or 404 page, tough choise ##
 excerpt_separator: <!--more-->
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
