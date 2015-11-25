@@ -3,6 +3,18 @@ quote: Clubrecord uurloop
 strava_id: 7796980
 strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
+  - datum: 28/11/2015
+    plaats: Beveren
+    naam: Winterloop
+    discipline: 12km
+
+  - datum: 10/11/2015
+    plaats: Mechelen
+    naam: 
+    discipline: Veldloop
+    prestatie: 18
+    totDeelnemers: 42
+
   - datum: 17/10/2015
     plaats: Beveren
     naam: Levensloop
