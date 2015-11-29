@@ -29,7 +29,7 @@ Ons loopshirt:
 OVERZICHT LOOPSCHEMA
 
 |Tijdslot|Loper(s)|
-|:---|:---:|
+|:---|---:|
 |15u-16u|Katrien Dullaert en Sophie De Bruyn|
 |16u-17u|Katrien Dullaert, Sophie De Bruyn en Pascal Brack|
 |17u-18u|Koen Meul, Evy Bocklandt en Pascal Brack|
@@ -44,8 +44,8 @@ OVERZICHT LOOPSCHEMA
 |02u-03u|Karel Verelst, Wout Vierbergen, Tim Coenen en Sven Verhaege|
 |03u-04u|Karel Verelst, Wout Vierbergen, Tim Coenen, Sven Verhaege, Pieter D'Hooghe en Filip Anné|
 |04u-05u|Karel Verelst, Wout Vierbergen, Tim Coenen, Sven Verhaege, Pieter D'Hooghe en Filip Anné|
-|05u-06u||
-|06u-07u||
+|05u-06u|-|
+|06u-07u|-|
 |07u-08u|Michaël	Michaël Leys, Wout Backaert en Bloemke Van de Wijngaert|
 |08u-09u|Michaël	Michaël Leys, Wout Backaert en Bloemke Van de Wijngaert|
 |09u-10u|Michaël	Wout Backaert en Karolien Smet|
