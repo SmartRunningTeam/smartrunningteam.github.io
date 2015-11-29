@@ -22,7 +22,7 @@ Sven Verhaege was vorig jaar 2de na een snel startende Koen Maris, ook dit jaar 
 Sven was goed gestart en kon in het begin meelopen met enkele snellere lopers van de 4 en 8 km, daarna deelde hij zijn wedstrijd goed in.
 Hij liep lang op een 4de plaats maar toen Bjorn Willems uit de race stapte (na steken) liep hij op podiumkoers.
 Na 42 min. 36 sec. kwam Sven tevreden aan als 3de na een sterke Koen Maris en Niels Slachmuylders.
-Wim Meul en Wout Vierbergen zagen deze wedstrijd(12km) eerder als een doorgedreven training. Ze liepen de hele wedstrijd samen en kwamen na ~~44 min. 14 sec~~ 43 min. 57 sec. aan als 4de en 5de.
+Wim Meul en Wout Vierbergen zagen deze wedstrijd(12km) eerder als een doorgedreven training. Ze liepen de hele wedstrijd samen en kwamen na <del>44 min. 14 sec</del> 43 min. 57 sec. aan als 4de en 5de.
 Ook Wout Backaert wou een goede wedstrijd lopen. Voor de start twijfelde hij welk tempo hij het best zou lopen, maar tijdens de wedstrijd vond hij zijn goede benen. Eerder rustig gestart kon hij goed opschuiven in de wedstrijd en hierdoor werd hij 12de in een mooie tijd van juist onder de 47 minuten.
 
 ## 1ste plaats voor Karolien Smet!
@@ -36,4 +36,8 @@ Iedereen heeft op zijn eigen waarde goed gelopen. Volgend doel is de cross van S
 
 ## Strava log
 
+Klik [hier](http://labs.strava.com/flyby/viewer/#440851349,JBBHGoUaRxpH3UcaX2VIGiKQTho=) voor een replay van de wedstrijd
+
+<!--
 <iframe height='50%' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='http://labs.strava.com/flyby/viewer/#440851349,JBBHGoUaRxpH3UcaX2VIGiKQTho='></iframe>
+-->
