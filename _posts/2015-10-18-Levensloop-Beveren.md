@@ -10,7 +10,7 @@ bannerimg: true
 
 *Onderstaande stond destijds op onze homepage*
 
-## ![logo levensloop](/img/levensloop.png)
+## levensloop
 
 
 Op zaterdag/zondag 17/18 oktober vindt in Beveren de [levensloop](http://www.levensloop.be/beveren) plaats. Ook wij nemen deel met een team.
