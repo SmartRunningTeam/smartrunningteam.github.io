@@ -27,10 +27,15 @@
 
         {{ page.content | markdownify }}
 
+        {% if page.flyby %}
+          <h2> Strava </h2>
+        {% endif %}
+
         {% include share.html %}
 
         {% include comments.html %}
       </div>
+      {% include flyby.html %}
     </section>
 
    {% include footer.html %}

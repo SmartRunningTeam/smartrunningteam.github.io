@@ -2,6 +2,7 @@
 layout: post
 section-type: blog
 author: Karel Verelst
+flyby: http://labs.strava.com/flyby/viewer/#440851349,JBBHGoUaRxpH3UcaX2VIGiKQTho=
 atleten:
   - Sven Verhaege
   - Wim Meul
@@ -18,6 +19,7 @@ Het is een wedstrijd die deels op straat en deels op de finse piste wordt gelope
 
 <!--more-->
 
+## Plaats 3, 4 en 5 bij de mannen
 Sven Verhaege was vorig jaar 2de na een snel startende Koen Maris, ook dit jaar wou Sven een goede tijd lopen op de 12 km.
 Sven was goed gestart en kon in het begin meelopen met enkele snellere lopers van de 4 en 8 km, daarna deelde hij zijn wedstrijd goed in.
 Hij liep lang op een 4de plaats maar toen Bjorn Willems uit de race stapte (na steken) liep hij op podiumkoers.
@@ -33,11 +35,3 @@ Michaël Leys was vrij snel gestart op de 12 km maar vond na enkele kilometers z
 ## Wederoptreden van Karel Verelst
 Karel Verelst starte ambitieloos op de 8 km. Terugkomende van een blessure was dit een goede training. Na 40 min. kwam hij als 30ste over de streep.
 Iedereen heeft op zijn eigen waarde goed gelopen. Volgend doel is de cross van Stekene.
-
-## Strava log
-
-Klik [hier](http://labs.strava.com/flyby/viewer/#440851349,JBBHGoUaRxpH3UcaX2VIGiKQTho=) voor een replay van de wedstrijd
-
-<!--
-<iframe height='50%' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='http://labs.strava.com/flyby/viewer/#440851349,JBBHGoUaRxpH3UcaX2VIGiKQTho='></iframe>
--->
