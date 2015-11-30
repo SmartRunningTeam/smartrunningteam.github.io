@@ -3,6 +3,8 @@ layout: post
 section-type: blog
 author: Karel Verelst
 flyby: http://labs.strava.com/flyby/viewer/#440851349,JBBHGoUaRxpH3UcaX2VIGiKQTho=
+persimg: /img/pers/2015-11-28-Winterloop.jpg
+perssource: Gazet van Antwerpen
 atleten:
   - Sven Verhaege
   - Wim Meul

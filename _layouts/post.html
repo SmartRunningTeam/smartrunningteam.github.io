@@ -15,7 +15,9 @@
 
         <h1><strong>{{ page.title }}</strong></h1>
         <h4><strong>{{ page.date | date_to_string }}</strong>
-        <a href="{{ site.url }}/atleet/{{ page.author | replace:' ','' }}.html"> <strong> {{ page.author }} </strong> </a>
+        {% if page.author %}
+          <a href="{{ site.url }}/atleet/{{ page.author | replace:' ','' }}.html"> <strong> {{ page.author }} </strong> </a>
+        {% endif %}
           {% if category %}
           <small> . {{ page.category }} . <!-- <a href="{{ page.url }}#disqus_thread">Comments</a> --> <p/>
             {% for tag in page.tags %}
@@ -27,15 +29,26 @@
 
         {{ page.content | markdownify }}
 
-        {% if page.flyby %}
-          <h2> Strava </h2>
-        {% endif %}
-
         {% include share.html %}
 
         {% include comments.html %}
       </div>
+      <!--pers-->
+      {% if page.persimg %}
+      <div class="col-lg-8 col-lg-offset-2">
+          <h2> Pers </h2>
+      </div>
+      <img src="{{ page.persimg }}" alt="{{ page.perssource }}" style="width:100%; margin-bottom:40px;">
+      {% endif %}
+      <!--/pers-->
+      <!--Flyby-->
+      {% if page.flyby %}
+      <div class="col-lg-8 col-lg-offset-2">
+          <h2> Strava </h2>
+      </div>
       {% include flyby.html %}
+      {% endif %}
+      <!--/Flyby-->
     </section>
 
    {% include footer.html %}
