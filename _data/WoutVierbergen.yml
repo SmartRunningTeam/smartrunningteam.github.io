@@ -3,15 +3,27 @@ quote: Clubrecord uurloop
 strava_id: 7796980
 strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
+  - datum: 20/12/2015
+    plaats: Lille
+    discipline: Cross 9100m
+    prestatie:
+
+  - datum: 13/12/2015
+    plaats: Stekene
+    naam:
+    discipline: Cross 9400m
+    prestatie:
+
   - datum: 28/11/2015
     plaats: Beveren
     naam: Winterloop
     discipline: 12km
+    perstatie: 4
 
   - datum: 10/11/2015
     plaats: Mechelen
-    naam: 
-    discipline: Veldloop
+    naam:
+    discipline: Cross 8100m
     prestatie: 18
     totDeelnemers: 42
 
