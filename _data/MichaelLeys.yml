@@ -1,8 +1,20 @@
 naam: Michaël Leys
-quote: "-"
+quote: Nearly isn't enough
 strava_id: 5346437
 strava_widget: a0acf78a97dfff20311378f081d5d5d11cb9187c
 wedstrijden:
+  - datum: 13/12/2015
+    plaats: Stekene
+    naam:
+    discipline: Korte Cross
+    prestatie:
+
+  - datum: 28/11/2015
+    plaats: Beveren
+    naam: Winterloop
+    discipline: 12km
+    prestatie: 28
+
   - datum: 19/09/2015
     plaats: Aalst
     naam: Engelse meeting

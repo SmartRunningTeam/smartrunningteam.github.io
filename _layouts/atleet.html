@@ -6,12 +6,11 @@
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
   {% include navigation.html %}
+  {% assign atl = site.data.[page.naam] %}
 
-  <section id="banner" class="banner" style="background-image: url( /img/atleet/{{ page.naam | replace: ' ','' }}.jpg );"> </section>
+  <section id="banner" class="banner" style="background-image: url( /img/atleet/{{ atl.naam | replace: ' ','' }}.jpg );"> </section>
 
   <!-- Atleet -->
-
-  {% assign atl = site.data.[page.naam] %}
 
   <section id="{{ page.naam }}" class="container content-section text-center" style="padding-bottom: 0px">
     <div class="row">
