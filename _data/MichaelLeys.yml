@@ -1,20 +1,13 @@
-naam: Michael Leys
+naam: Michaël Leys
 quote: "-"
-strava_id: het laatste cijfer van de link naar je Strava profiel
-strava_widget: cijfer na "https://www.strava.com/athletes/7796980/latest-rides/" in het widget
+strava_id: 5346437
+strava_widget: a0acf78a97dfff20311378f081d5d5d11cb9187c
 wedstrijden:
-  - datum: 07/01/1996
-    plaats: Beveren
-    naam: wedstrijdnaam
-    discipline: 1500m
-    prestatie: 4:08.44
-    CR: false
-
   - datum: 19/09/2015
     plaats: Aalst
     naam: Engelse meeting
     discipline: Olympische aflossing
-    prestatie: 4:14.60
+    prestatie: "4:14.60"
     CR: True
 
 social:
