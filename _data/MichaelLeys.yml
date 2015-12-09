@@ -21,7 +21,3 @@ wedstrijden:
     discipline: Olympische aflossing
     prestatie: "4:14.60"
     CR: True
-
-social:
-  - mail: me@myprovider.be
-    twitter: WoutVierbergen

@@ -1,7 +1,5 @@
 naam: Sven Verhaege
-quote: Bronzen master
-strava_id:
-strava_widget:
+quote: Road to Perth
 wedstrijden:
   - datum: 07/01/1996
     plaats: Beveren
@@ -16,7 +14,3 @@ wedstrijden:
     discipline: Olympische aflossing
     prestatie: 4:14.60
     CR: True
-
-social:
-  - mail: me@myprovider.be
-    twitter: WoutVierbergen
