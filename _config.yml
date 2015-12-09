@@ -7,12 +7,33 @@ description: "Een enthousiaste groep lopers uit Beveren. Fan van middellange en 
 favicon: "/img/favicon.png"
 # google-tracking-id: ""
 # disqus-shortname: ""
+force-https: True
 
 #permalink: pretty ## pretty or 404 page, tough choise ##
 excerpt_separator: <!--more-->
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# Dynamic Text on the Header
+dynamic-typing: True
+shuffle: False # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 2000
+lines: # You can add HTML Tags in the Text
+  - text: "We."
+  - text: "We Run."
+  - text: "We Run Roads."
+  - text: "We Run Roads in Beveren."
+  - text: "We Run Fast."
+  - text: "We Run Smart."
+  - text: "We Run Fast and Smart."
+  - text: "We Run our Life."
+
+indextext: Should work
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
@@ -33,10 +54,7 @@ bg-3: "/img/bg-3.jpg"
 
 banner: "/img/banner-std.jpg"
 banner-blog: "/img/banner-blog.jpg"
-banner-athletes: "/img/banner-athletes.jpg"
 
-# flickr:
-#   api_key: ?SHOULD THIS BE PUBLIC?
 
 # Blog variables
 paginate: 15
@@ -49,6 +67,7 @@ fb-share: True
 twitter-share: True
 reddit-share: false
 
+email: wimmeul@gmail.com
 
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 social:
