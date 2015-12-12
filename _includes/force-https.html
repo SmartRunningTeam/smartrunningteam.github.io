@@ -1,6 +1,13 @@
 
 {% if site.force-https %}
 
+{% if page.flyby %}
+<script>
+// Don't force https when serving Strava flyby
+  window.location.protocol = "http";
+</script>
+{% else %}
+
   <!-- Force HTTPS Start -->
   <script>
   // Don't force https when serving the website locally
@@ -10,4 +17,5 @@
 
   <!-- Force HTTPS End -->
 
+{% endif %}
 {% endif %}
