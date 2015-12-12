@@ -26,8 +26,8 @@ delete-delay: 2000
 lines: # You can add HTML Tags in the Text
   - text: "We."
   - text: "We Run."
-  - text: "We Run Roads."
-  - text: "We Run Roads in Beveren."
+  - text: "We Run wegels."
+  - text: "We Run wegels in Beveren."
   - text: "We Run Fast."
   - text: "We Run Smart."
   - text: "We Run Fast and Smart."
