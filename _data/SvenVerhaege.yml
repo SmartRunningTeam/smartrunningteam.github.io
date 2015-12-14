@@ -4,9 +4,10 @@ wedstrijden:
   - datum: 13/12/2015
     plaats: Stekene
     naam: 18e Stekense veldloop
-    discipline: Cross Masters 6535m
+    discipline: Cross 6535m
     prestatie: 7
     totDeelnemers: 57
+    cat: B
 
   - datum: 28/11/2015
     plaats: Beveren
@@ -20,3 +21,4 @@ wedstrijden:
     discipline: Cross 6520m
     prestatie: 5
     totDeelnemers: 83
+    cat: B

@@ -8,3 +8,12 @@ wedstrijden:
     discipline: Korte Cross
     prestatie: 19
     totDeelnemers: 27
+    cat: B
+
+  - datum: 10/11/2015
+    plaats: Mechelen
+    naam:
+    discipline: Cross 8100m
+    prestatie: 30
+    totDeelnemers: 42
+    cat: B

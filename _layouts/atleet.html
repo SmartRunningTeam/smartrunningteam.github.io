@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
   {% include head.html %}
 
@@ -37,15 +37,18 @@
         <div>
           <h4>Komende wedstrijden</h4>
           <table class="table">
-            {% for wedstrijd in atl.wedstrijden %}
+            <td><b>Datum</b></td>
+            <td><b>Plaats</b></td>
+            <td><b>Discipline</b></td>
+            {% for wed in atl.wedstrijden %}
 
             {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
-            {% capture wedtime %}{{ wedstrijd.datum | date: "%Y-%m-%d" }}{% endcapture %}
+            {% capture wedtime %}{{ wed.datum | date: "%Y-%m-%d" }}{% endcapture %}
             {% if wedtime > nowunix %}
             <tr>
-              <td>{{ wedstrijd.datum }}</td>
-              <td>{{ wedstrijd.plaats }}</td>
-              <td>{{ wedstrijd.discipline }}</td>
+              <td>{{ wed.datum }}</td>
+              <td>{{ wed.plaats }}</td>
+              <td>{{ wed.discipline }}</td>
             </tr>
             {% endif %}
 
@@ -56,16 +59,36 @@
         <div>
           <h5>Afgelopen wedstrijden</h5>
           <table class="table">
-            {% for wedstrijd in atl.wedstrijden sort: datum limit:10 %}
+            <td><b>Datum</b></td>
+            <td><b>Plaats</b></td>
+            <td><b>Discipline</b></td>
+            <td><b>Prestatie</b></td>
+            <td><b>Punten</b></td>
+            {% for wed in atl.wedstrijden sort: datum limit:15 %}
 
             {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
-            {% capture wedtime %}{{ wedstrijd.datum | date: "%Y-%m-%d" }}{% endcapture %}
+            {% capture wedtime %}{{ wed.datum | date: "%Y-%m-%d" }}{% endcapture %}
             {% if wedtime < nowunix %}
             <tr>
-              <td>{{ wedstrijd.datum }}</td>
-              <td>{{ wedstrijd.plaats }}</td>
-              <td>{{ wedstrijd.discipline }}</td>
-              <td>{{ wedstrijd.prestatie }}</td>
+              <td>{{ wed.datum }}</td>
+              <td>{{ wed.plaats }}</td>
+              <td>{{ wed.discipline }}</td>
+              <td>{{ wed.prestatie }}</td>
+              {% if wed.totDeelnemers and wed.cat %}
+
+              {% case wed.cat %}
+                {% when 'A' %} {% assign scale = 5 %}
+                {% when 'B' %} {% assign scale = 10 %}
+                {% when 'C' %} {% assign scale = 20 %}
+              {% endcase %}
+
+              {% assign num = wed.totDeelnemers | minus: wed.prestatie %}
+              {% assign den = wed.totDeelnemers | minus: 1 %}
+              {% assign points = num | times: 999 | divided_by: den | plus: 1 | divided_by: scale %}
+              <td>{{ points }}</td>
+              {% else %}
+              <td> </td>
+              {% endif %}
             </tr>
             {% endif %}
 

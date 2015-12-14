@@ -9,6 +9,7 @@ wedstrijden:
     discipline: Korte Cross
     prestatie: 24
     totDeelnemers: 27
+    cat: B
 
   - datum: 28/11/2015
     plaats: Beveren

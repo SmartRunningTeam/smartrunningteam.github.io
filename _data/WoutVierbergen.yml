@@ -8,6 +8,7 @@ wedstrijden:
     discipline: Cross 9100m
     prestatie:
     totDeelnemers:
+    cat: C
 
   - datum: 13/12/2015
     plaats: Stekene
@@ -15,6 +16,7 @@ wedstrijden:
     discipline: Cross 9400m
     prestatie: 18
     totDeelnemers: 27
+    cat: B
 
   - datum: 28/11/2015
     plaats: Beveren
@@ -28,6 +30,7 @@ wedstrijden:
     discipline: Cross 8100m
     prestatie: 18
     totDeelnemers: 42
+    cat: B
 
   - datum: 17/10/2015
     plaats: Beveren
