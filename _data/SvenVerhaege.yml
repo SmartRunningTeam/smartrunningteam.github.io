@@ -1,16 +1,22 @@
 naam: Sven Verhaege
 quote: Road to Perth
 wedstrijden:
-  - datum: 07/01/1996
-    plaats: Beveren
-    naam: wedstrijdnaam
-    discipline: 1500m
-    prestatie: 4:08.44
-    CR: false
+  - datum: 13/12/2015
+    plaats: Stekene
+    naam: 18e Stekense veldloop
+    discipline: Cross Masters 6535m
+    prestatie: 7
+    totDeelnemers: 57
 
-  - datum: 19/09/2015
-    plaats: Aalst
-    naam: Engelse meeting
-    discipline: Olympische aflossing
-    prestatie: 4:14.60
-    CR: True
+  - datum: 28/11/2015
+    plaats: Beveren
+    naam: Winterloop
+    discipline: 12km
+    prestatie: 3
+
+  - datum: 10/11/2015
+    plaats: Mechelen
+    naam: 11-11
+    discipline: Cross 6520m
+    prestatie: 5
+    totDeelnemers: 83
