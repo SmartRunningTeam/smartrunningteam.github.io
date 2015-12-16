@@ -384,16 +384,17 @@ a:focus {
  .ph-1 {
     height: 60%;
     padding: 0;
-}
+  }
 
-.ph-2 {
-    height: 60%;
-    padding: 0;
-}
+  .ph-2 {
+      height: 60%;
+      padding: 0;
+  }
 
-.ph-3 {
-    height: 60%;
-    padding: 0;
+  .ph-3 {
+      height: 60%;
+      padding: 0;
+  }
 }
 
 /* ===========================
