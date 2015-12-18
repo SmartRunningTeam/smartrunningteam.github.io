@@ -9,7 +9,7 @@
 
   <section id="banner" class="banner" style="background-image: url( {{ site.banner-blog }} );"> </section>
 
-  <section id="{{ page.title }}" class="container content-section text-center">
+  <section id="{{ page.title }}" class="container content-section">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
 
@@ -44,8 +44,14 @@
         {% endcase %}
         {% endcapture %}
 
-        <div class="blog-ot">
-          <h4 <strong>{{ cleandate }}</strong><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></h4>
+        <div class="blog">
+          <table>
+            <tr>
+              <td class="blog-dat">{{ cleandate }}</td>
+              <td class="blog-title"><a href="{{ post.url }}"> {{ post.title }}</a></td>
+            </tr>
+        </table>
+
         </div>
 
         {% if forloop.last %}
