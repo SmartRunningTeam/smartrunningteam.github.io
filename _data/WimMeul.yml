@@ -3,7 +3,13 @@ quote: Trainer
 strava_id: 4899022
 strava_widget: cbeccd48399b48bc8be161087edd0279b985b1ac
 wedstrijden:
-  
+  - datum: 20/12/2015
+    plaats: Lille
+    discipline: Cross 9450m
+    prestatie: 15
+    totDeelnemers: 30
+    cat: C
+
   - datum: 19/09/2015
     plaats: Aalst
     naam: Engelse meeting

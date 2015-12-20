@@ -1,6 +1,13 @@
 naam: Sven Verhaege
 quote: Road to Perth
 wedstrijden:
+  - datum: 20/12/2015
+    plaats: Lille
+    discipline: Cross 9450m
+    prestatie: 11
+    totDeelnemers: 30
+    cat: C
+
   - datum: 13/12/2015
     plaats: Stekene
     naam: 18e Stekense veldloop

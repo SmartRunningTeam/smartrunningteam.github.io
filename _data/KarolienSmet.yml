@@ -1,10 +1,11 @@
 naam: Karolien Smet
 quote: "-"
 strava_id:
-strava_widget: 
+strava_widget:
 wedstrijden:
-  - datum:
-    plaats:
-    naam:
-    discipline:
-    prestatie:
+  - datum: 20/12/2015
+    plaats: Lille
+    discipline: Cross 5050m
+    prestatie: 8
+    totDeelnemers: 17
+    cat: C

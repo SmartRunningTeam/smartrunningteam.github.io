@@ -5,9 +5,9 @@ strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
   - datum: 20/12/2015
     plaats: Lille
-    discipline: Cross 9100m
-    prestatie:
-    totDeelnemers:
+    discipline: Cross 9450m
+    prestatie: 10
+    totDeelnemers: 30
     cat: C
 
   - datum: 13/12/2015

@@ -3,8 +3,9 @@ quote: "-"
 strava_id:
 strava_widget:
 wedstrijden:
-  - datum:
-    plaats:
-    naam:
-    discipline:
-    prestatie: 
+  - datum: 20/12/2015
+    plaats: Lille
+    discipline: Cross 9450m
+    prestatie: 18
+    totDeelnemers: 30
+    cat: C
