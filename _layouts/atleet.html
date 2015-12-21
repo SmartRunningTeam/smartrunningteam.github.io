@@ -35,45 +35,64 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
         <div>
+          <!-- First array for future races -->
+          {% assign future = "" | split:"|"  %}
+
+          <!-- Second one for past races -->
+          {% assign past = "" | split:"|"  %}
+
+          <!-- Iterate over all weds and sort them into two arrays, based on servertime and race date -->
+          <!-- **Arreys themself aren't sorted, races will be displayed as saved in the _data file** -->
+          {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
+          {% for wed in atl.wedstrijden %}
+          {% capture wedtime %}{{ wed.datum | date: "%Y-%m-%d" }}{% endcapture %}
+          {% if wedtime >= nowunix %}
+            {% assign future = future | push: wed %}
+          {% else %}
+            {% assign past = past | push: wed %}
+          {% endif %}
+          {% endfor %}
+
+          <!-- Display future races -->
+          {% if future.size > 0 %}
           <h4>Komende wedstrijden</h4>
           <table class="table">
             <td><b>Datum</b></td>
             <td><b>Plaats</b></td>
             <td><b>Discipline</b></td>
-            {% for wed in atl.wedstrijden %}
 
-            {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
-            {% capture wedtime %}{{ wed.datum | date: "%Y-%m-%d" }}{% endcapture %}
-            {% if wedtime >= nowunix %}
+            {% for wed in future %}
             <tr>
               <td>{{ wed.datum }}</td>
               <td>{{ wed.plaats }}</td>
               <td>{{ wed.discipline }}</td>
             </tr>
-            {% endif %}
-
             {% endfor %}
+
           </table>
+          {% endif %}
+
         </div>
 
         <div>
-          <h5>Afgelopen wedstrijden</h5>
+          <!-- Display past races -->
+          {% if past.size > 0 %}
+          <h4>Eerdere wedstrijden</h4>
           <table class="table">
             <td><b>Datum</b></td>
             <td><b>Plaats</b></td>
             <td><b>Discipline</b></td>
             <td><b>Prestatie</b></td>
             <td><b>Punten</b></td>
-            {% for wed in atl.wedstrijden sort: datum limit:15 %}
 
-            {% capture nowunix %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
-            {% capture wedtime %}{{ wed.datum | date: "%Y-%m-%d" }}{% endcapture %}
-            {% if wedtime < nowunix %}
+            {% for wed in past | limit: 15 %}
             <tr>
               <td>{{ wed.datum }}</td>
               <td>{{ wed.plaats }}</td>
               <td>{{ wed.discipline }}</td>
               <td>{{ wed.prestatie }}</td>
+
+              <!-- If enough variables are given: calculate cross points -->
               {% if wed.totDeelnemers and wed.cat %}
 
               {% case wed.cat %}
@@ -89,11 +108,12 @@
               {% else %}
               <td> </td>
               {% endif %}
+              <!-- END cross points -->
             </tr>
-            {% endif %}
-
             {% endfor %}
+
           </table>
+          {% endif %}
         </div>
       </div>
 

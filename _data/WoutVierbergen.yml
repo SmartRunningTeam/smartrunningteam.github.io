@@ -3,6 +3,12 @@ quote: Do More!
 strava_id: 7796980
 strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
+  - datum: 07/02/2016
+    plaats: Berlare
+    naam: PK
+    discipline: Cross
+    prestatie:
+
   - datum: 20/12/2015
     plaats: Lille
     discipline: Cross 9450m
