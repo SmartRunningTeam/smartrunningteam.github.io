@@ -7,7 +7,7 @@ description: "Een enthousiaste groep lopers uit Beveren. Fan van middellange en 
 favicon: "/img/favicon.png"
 # google-tracking-id: ""
 # disqus-shortname: ""
-force-https: True
+force-https: false 
 
 #permalink: pretty ## pretty or 404 page, tough choise ##
 excerpt_separator: <!--more-->
