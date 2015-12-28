@@ -25,7 +25,7 @@ Karolien werd uiteindelijk knap 8ste bij de senioren dames!
 
 ## Senioren heren
 Bij de senioren heren stonden er 4 atleten aan de start. Sven had voor deze wedstrijd gekozen om nog eens tussen het senioren geweld te lopen.
-Hij ging de strijd aan tegen Wout, Wim en Sven.
+Hij ging de strijd aan met Wout, Wim en Filip.
 Voor de senioren heren stond er een middelgrote en 5 grote rondes op het programma.
 In de eerste ronde lag iedereen nog in elkaars buurt. Sven en Wout werden kort gevolgd door Wim en Filip.
 Naarmate de wedstrijd vorderde werd het duidelijk dat Sven en Wout aan het strijden waren voor een mooie plaats in het dagklassement. Ze gingen onderling ook uitmaken wie als eerste van het SRT team de meet ging overschrijden.
