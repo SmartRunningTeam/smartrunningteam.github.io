@@ -11,7 +11,7 @@ atleten:
   - Karolien Smet
 ---
 
-Op zondag 20 december 2015 stond er de laatste wedstrijd op het programma voor de atleten van Smart Running Team, dit was de cross op het domein de Lilse Bergen.
+Op zondag 20 december 2015 stond er de laatste wedstrijd van 2015 op het programma voor de atleten van Smart Running Team, dit was de cross op het domein de Lilse Bergen.
 Door de aangename temperatuur van de afgelopen dagen was het een droog en snel parcours met 2 zandstroken per ronde.
 De speaker van dienst is ook elk jaar enthousiast voor ieder atleet die aan de cross meedoet.
 
