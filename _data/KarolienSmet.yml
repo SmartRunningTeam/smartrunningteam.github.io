@@ -3,6 +3,13 @@ quote: "-"
 strava_id:
 strava_widget:
 wedstrijden:
+  - datum: 10/01/2016
+    plaats: Maldegem
+    discipline: Cross 4800m
+    prestatie: 12
+    totDeelnemers: 57
+    cat: B  
+
   - datum: 20/12/2015
     plaats: Lille
     discipline: Cross 5050m
