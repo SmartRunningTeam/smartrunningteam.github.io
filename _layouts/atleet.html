@@ -83,7 +83,7 @@
             <td><b>Plaats</b></td>
             <td><b>Discipline</b></td>
             <td><b>Prestatie</b></td>
-            <td><b>Punten</b></td>
+            <!-- <td><b>Punten</b></td> -->
 
             {% for wed in past | limit: 15 %}
             <tr>
@@ -92,7 +92,7 @@
               <td>{{ wed.discipline }}</td>
               <td>{{ wed.prestatie }}</td>
 
-              <!-- If enough variables are given: calculate cross points -->
+              <!-- || DISABLE UNTIL CERTAINTY || If enough variables are given: calculate cross points
               {% if wed.totDeelnemers and wed.cat %}
 
               {% case wed.cat %}
@@ -108,7 +108,7 @@
               {% else %}
               <td> </td>
               {% endif %}
-              <!-- END cross points -->
+               END cross points -->
             </tr>
             {% endfor %}
 
