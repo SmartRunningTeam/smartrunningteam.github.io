@@ -1,7 +1,14 @@
 naam: Sven Verhaege
 quote: Road to Perth
 wedstrijden:
-  - datum: 10/01/2016 
+  - datum: 24/01/2016
+    plaats: Bornem
+    discipline: Cross Mas
+    prestatie: 3
+    totDeelnemers: 52
+    cat: B
+
+  - datum: 10/01/2016
     plaats: Maldegem
     discipline: Cross 6400m
     prestatie: 4

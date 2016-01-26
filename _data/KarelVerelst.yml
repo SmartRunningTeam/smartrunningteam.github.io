@@ -3,8 +3,9 @@ quote: I'm a runner
 strava_id: 5421312
 strava_widget: 147ec53c55e7c1dea6b2eb4b90893acf426a216e
 wedstrijden:
-  - datum:
-    plaats:
-    naam:
-    discipline:
-    prestatie:
+    - datum: 24/01/2016
+      plaats: Bornem
+      discipline: Cross Sen
+      prestatie: 44
+      totDeelnemers: 65
+      cat: B

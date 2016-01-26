@@ -3,6 +3,13 @@ quote: Trainer
 strava_id: 4899022
 strava_widget: cbeccd48399b48bc8be161087edd0279b985b1ac
 wedstrijden:
+  - datum: 24/01/2016
+    plaats: Bornem
+    discipline: Cross Sen
+    prestatie: 30
+    totDeelnemers: 65
+    cat: B
+
   - datum: 20/12/2015
     plaats: Lille
     discipline: Cross 9450m

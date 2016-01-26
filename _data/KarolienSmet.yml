@@ -3,12 +3,19 @@ quote: "-"
 strava_id:
 strava_widget:
 wedstrijden:
+  - datum: 24/01/2016
+    plaats: Bornem
+    discipline: Cross Sen
+    prestatie: 9
+    totDeelnemers: 26
+    cat: B
+
   - datum: 10/01/2016
     plaats: Maldegem
     discipline: Cross 4800m
     prestatie: 12
     totDeelnemers: 57
-    cat: B  
+    cat: B
 
   - datum: 20/12/2015
     plaats: Lille
