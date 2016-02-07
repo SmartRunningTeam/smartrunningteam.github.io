@@ -2,7 +2,6 @@
 layout: post
 section-type: blog
 author: Wim Meul
-permalink: /aalst
 tags: srt, clubrecord, volh, mijl, aalst, cr
 flyby: http://labs.strava.com/flyby/viewer/#395977527,b4+VFwgylhckR8IX
 atleten:
