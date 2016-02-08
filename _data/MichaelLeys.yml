@@ -3,6 +3,13 @@ quote: Nearly isn't enough
 strava_id: 5346437
 strava_widget: a0acf78a97dfff20311378f081d5d5d11cb9187c
 wedstrijden:
+  - datum: 07/02/2016
+    plaats: Berlare
+    discipline: Cross 2775m
+    prestatie: 33
+    totDeelnemers: 37
+    cat: A
+
   - datum: 24/01/2016
     plaats: Bornem
     discipline: Cross Sen

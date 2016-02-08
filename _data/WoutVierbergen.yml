@@ -5,9 +5,10 @@ strava_widget: cdbc8bdec76ab51161c0edd71269207b34e236fa
 wedstrijden:
   - datum: 07/02/2016
     plaats: Berlare
-    naam: PK
-    discipline: Cross
-    prestatie:
+    discipline: Cross 8825m
+    prestatie: 19
+    totDeelnemers: 22
+    cat: A
 
   - datum: 20/12/2015
     plaats: Lille

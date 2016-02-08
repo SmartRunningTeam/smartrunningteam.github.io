@@ -3,6 +3,13 @@ quote: "-"
 strava_id:
 strava_widget:
 wedstrijden:
+  - datum: 07/02/2016
+    plaats: Berlare
+    discipline: Cross 4725m
+    prestatie: 15
+    totDeelnemers: 21
+    cat: A
+
   - datum: 24/01/2016
     plaats: Bornem
     discipline: Cross Sen

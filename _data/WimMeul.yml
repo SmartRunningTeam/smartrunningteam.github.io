@@ -3,6 +3,13 @@ quote: Trainer
 strava_id: 4899022
 strava_widget: cbeccd48399b48bc8be161087edd0279b985b1ac
 wedstrijden:
+  - datum: 07/02/2016
+    plaats: Berlare
+    discipline: Cross 8825m
+    prestatie: 14
+    totDeelnemers: 22
+    cat: A
+
   - datum: 24/01/2016
     plaats: Bornem
     discipline: Cross Sen
