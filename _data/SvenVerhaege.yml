@@ -1,6 +1,11 @@
 naam: Sven Verhaege
 quote: Road to Perth
 wedstrijden:
+  - datum: 05/11/2016
+    plaats: WK Masters Perth
+    discipline: 1500m
+    prestatie: 8
+
   - datum: 07/02/2016
     plaats: Berlare
     discipline: Cross 6625m
