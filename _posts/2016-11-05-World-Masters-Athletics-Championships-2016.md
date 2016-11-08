@@ -24,7 +24,7 @@ En inderdaad, om 14u lokale tijd (7u ’s morgens in België) stond ik klaar aan
 
 Net zoals de gladiatoren vroeger werden we 1 voor 1 de arena ingestuurd om het publiek te groeten, en om ons mentaal op te laden voor een ultieme sportinspanning van zo’n 4 minuten. Ik betrad als laatste de atletiekpiste, omdat ik het laatste startnummer droeg: ‘13’.
 
-![](/img/WK-perth/IMG_0779.jpg)
+![](/img/WK-2.jpg)
 
 Maar ik liet me door de omstandigheden - het publiek en de hitte – of het ongeluksnummer dat ik droeg, niet gek maken, en behield mijn focus.
 Om 14u05 klonk het startschot en begon de strijd om een ereplaats. Het was al snel duidelijk dat de eersten absolute wereldtop waren, en op een ander niveau liepen als ik. Het gevolg was een tactische wedstrijd waarbij na een paar seconden al duidelijk was dat er niet gelopen werd voor een snelle tijd, maar voor een plaats op het kampioenschap.
@@ -32,5 +32,5 @@ Om 14u05 klonk het startschot en begon de strijd om een ereplaats. Het was al sn
 ## een jeugddroom
 De eerste 6 lopers waren te sterk en hadden direct afstand genomen. Na 1 ronde te lopen, en met nog ongeveer 3 ronden te gaan, liep ik samen met een Ier weg. Op weg naar plaats 7 en 8.  In mijn zog volgde nog een Amerikaan, een Australiër en een Argentijn, maar zij moesten mijn tempo lossen, in mijn poging om de Ier te volgen en te verslaan voor de 7e plaats. De Ier bleek te sterk en kon zijn voorsprong behouden, maar ik kwam over de meet met een trots gevoel, omdat ik wist dat ik mijn doelstelling had bereikt: 8ste worden op een wereldkampioenschap. Al die trainingsarbeid was vergeten, want mijn jongensdroom is in vervulling gegaan. En daarvoor deed ik het uiteindelijk.
 
-![](/img/WK-perth/IMG_0778.jpg)
-![](/img/WK-perth/IMG_0785.jpg)
+![](/img/WK-1.jpg)
+![](/img/WK-3.jpg)
